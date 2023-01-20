@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f1f1f1;
+    font-family: "Rubik", sans-serif;
+    color: #444;
+    line-height: 1.3;
+}
+p {
+    margin: 0px 10px 10px;
+}
+a:link {
+    color: rgb(6, 102, 197);
+}
+a:visited {
+    color: rgb(30, 90, 10);
+}
+a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+a:active {
+    color: brown;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container h1 {
+    text-align: center;
+    margin: 25px;
+    font-weight: 600;
+}
+.strong {
+    font-weight: 600;
+}
+.info {
+    display: flex;
+}
+
+.info--photo img {
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+}
+.card-section {
+    font-size: 18px;
+    margin: 50px 0;
+    padding: 30px;
+    border: solid #aaa 1px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+}
+.card-section h2 {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* -----Мои цели на обучение----- */
+
+.targets {
+    background-color: rgb(125, 220, 90);
+}
+.targets li {
+    margin: 10px;
+}
+
+/* -----Сколько времени смогу учиться----- */
+
+.study-time {
+    background-color: rgb(101, 185, 234);
+}
+.tbl-days {
+    margin: 0 auto;
+}
+.tbl-days tr td:nth-child(even) {
+    padding: 5px 0px 5px 60px;
+}
+
+/* -----Пройденные курсы----- */
+
+.courses {
+    background-color: rgb(220, 160, 250);
+}
+
+.tbl-courses {
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+.tbl-courses th {
+    padding: 10px 60px;
+    border-bottom: 2px solid #555;
+}
+.tbl-courses td {
+    padding-top: 15px;
+}
+
+/* -----Контакты----- */
+.contacts {
+    background-color: rgb(250, 190, 80);
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-around;
+}
+.social-link {
+    text-align: center;
+    width: 15%;
+}
+.social-link a {
+    text-decoration: none;
+}
